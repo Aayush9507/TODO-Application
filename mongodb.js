@@ -1,6 +1,6 @@
 //CRUD create read update delete
 
-const mongodb = require('mongodb')
+const mongodb = require('./node_modules/mongodb')
 const MongoCient = mongodb.MongoClient
 const ObjectID = mongodb.ObjectID
 // const { MongoCient, ObjectID } = require('mongodb')
