@@ -19,17 +19,17 @@ const Task = require('./models/task')
 const User = require('./models/user')
 
 
-const main = async () => {
+// const main = async () => {
 
-    // const task = await Task.findById('5d0ee917fcc2c00c4d98d924')
-    // await task.populate('owner').execPopulate()
-    // console.log(task.owner)
-    const user = await User.findById('5d0ee88ca819c90c43d5ec20')
-    await user.populate('tasks').execPopulate()
-    console.log(user.tasks)
+//     // const task = await Task.findById('5d0ee917fcc2c00c4d98d924')
+//     // await task.populate('owner').execPopulate()
+//     // console.log(task.owner)
+//     const user = await User.findById('5d0ee88ca819c90c43d5ec20')
+//     await user.populate('tasks').execPopulate()
+//     console.log(user.tasks)
     
-    // console.log(user.tasks)
+//     // console.log(user.tasks)
 
 
-}
-main()
+// }
+// main()

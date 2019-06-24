@@ -49,6 +49,8 @@ const userSchema = new mongoose.Schema({
             required: true
         }
     }]
+}, {
+    timestamps: true
 })
 
 userSchema.virtual('tasks', {
@@ -114,6 +116,7 @@ userSchema.pre('remove', async function (next) {
     const user = this
     await Task.deleteMany({owner: user._id})
     next()
+
 
 })
 
