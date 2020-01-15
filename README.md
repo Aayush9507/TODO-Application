@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Welcome to TODO application 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -42,3 +43,9 @@ Give a ⭐️ if this project helped you!
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+=======
+# Task-Manager-Application
+
+A REST API with user accounts and authentication which lets users manage their tasks with add, delete, update functionalities into to their profile and upload images as profile picture.
+It also send Emails when a user creates a new account or deletes an existing account
+>>>>>>> ccb66ff9f9a569edec13ffe8946d665b60deff4a
